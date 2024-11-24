@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- تعریف نوع سند HTML5 -->
+        <meta charset="UTF-8"/> <!-- تعیین نوع کاراکترها به UTF-8 برای پشتیبانی از حروف خاص -->
+        <meta name="vieport" content="width=device-width, initial-scale=1.0"> <!-- تنظیم نمایش محتوا بر اساس عرض صفحه و دستگاه -->
+        <title>Rajabi</title> <!-- عنوان صفحه -->
+        <link rel="stylesheet" href="Style.css"> <!-- لینک به فایل CSS خارجی برای استایل‌دهی -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/> <!-- لینک به کتابخانه Font Awesome برای آیکون‌ها -->
+    </head>
+    <body>
+        <!-- بخش بالای صفحه -->
+        <div id="my-header">
+            <!-- قرار دادن تصویر پروفایل داخل دایره -->
+            <div class="MyCircleDiv">
+                <img src="C:\Users\this pc\Desktop\P1\pictore.jpg"> <!-- منبع تصویر -->
+            </div>
+            <b>Hossein Rajabi</b> <!-- نام فرد با فونت ضخیم -->
+        </div>
+        
+        <!-- ساختار اصلی صفحه با استفاده از flexbox برای چیدمان دو بخش -->
+        <div id="MyBottomDiv">
+            <!-- ستون چپ صفحه (اطلاعات تماس و مهارت‌ها) -->
+            <div id="MyLeftDiv">
+               <b><p class="pr">Contact Details</p></b> <!-- اطلاعات تماس -->
+               <p><i class="fa fa-envelope"></i> <a href="mailto:hosseinrajabi138@gmail.com">hosseinrajabi138@gmail.com</a></p> <!-- ایمیل با آیکون و لینک -->
+               <p><i class="fa fa-phone"></i> (+98) 09915319233</p> <!-- شماره تلفن با آیکون -->
+               <p><i class="fa fa-map-marker-alt"></i>Iran-tehran</p> <!-- محل زندگی با آیکون -->
+               <br>
+               <br><b><p class="pb2">Education</p></b> <!-- بخش تحصیلات -->
+               <p class="education-item">
+                <span class="dot-line"></span> <!-- نمایش نقطه و خط برای جدا کردن تحصیلات -->
+                 <p class="ph2">Bachelor of Fine Arts in Web Design</p> <!-- رشته تحصیلی -->
+                 <p class="ph3">KNTU</p> <!-- نام دانشگاه -->
+                 <p class="ph3">2017-2021</p> <!-- سال‌های تحصیل -->
+               </p>
+               <b><p class="pb1">Skils</p></b> <!-- بخش مهارت‌ها -->
+                <p class="ph">HTML-Expert</p> <!-- مهارت HTML -->
+                <p class="ph">CSS-Expert</p> <!-- مهارت CSS -->
+                <p class="ph">javaScript-Expert</p> <!-- مهارت JavaScript -->
+                <p class="ph">Photoshop-Expert</p> <!-- مهارت فتوشاپ -->
+                <p class="ph">User Internet-Expert</p> <!-- مهارت استفاده از اینترنت -->
+                <p class="ph">Responsive Design-Expert</p> <!-- مهارت طراحی واکنش‌گرا -->
+            </div>
+            
+            <!-- ستون راست صفحه (خلاصه، تجربه کاری و مراجع) -->
+            <div id="MyRightDiv">
+               <b><p class="pr">summary</p><hr></b> <!-- بخش خلاصه -->
+                <p class="ph">Experienced Web Designer with a passion for creating visually stunning user-fiendly websites. Skikked in Html, Css and design softwere.</p> <!-- توضیح کوتاه درباره فرد -->
+                <br>
+                <b><p class="pb">Work Experience</p><hr></b> <!-- بخش تجربه کاری -->
+                <h4>Web Designer, Cummerata - Schaden</h4> <!-- نام شرکت و سمت -->
+                <p class="plitle">March 2023-peresent</p> <!-- تاریخ شروع و پایان همکاری -->
+                <ul class="ulRight"> <!-- لیست وظایف در این شرکت -->
+                    <li>Designed and developed websites for more than 30 clients,utillizing HTML,CSS,javaScript,Adobe photoshop, and Adobe ustrator.</li>
+                    <li>Developed and maintained corporate websites, including updating content and improving user experience</li>
+                    <li>Worked with clients to identify design needs, as well as write review and edit website content.</li>
+                </ul>
+                <h4>Web Designer, Russel, Moore and Lebsack</h4> <!-- نام شرکت قبلی و سمت -->
+                <p class="plitle">May 2021 - February 2023</p> <!-- تاریخ شروع و پایان همکاری -->
+                <ul class="ulRight"> <!-- لیست وظایف در شرکت قبلی -->
+                    <li>Utilized SEO techniques to ensure maximum visibility of websites and webpages on search engines</li>
+                    <li>Created custom websites and graphics to meet client specifications and branding needs</li>
+                    <li>Developed website navigation and site architecture to ensure an intuitive user experience</li>
+                </ul>
+                <br>
+                <b><p class="pb">References</p><hr></b> <!-- بخش مراجع -->
+                <p class="ph">References available upon request</p> <!-- متن درخواست مراجع -->
+            </div>
+        </div>
+    </body>
+</html>

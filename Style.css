@@ -1,0 +1,186 @@
+#my-header {
+    display: flex; /* استفاده از flexbox برای ایجاد چیدمان */
+    flex:0 0 100%; /* عرض کامل را اشغال کند */
+    height:200px ; /* ارتفاع 200 پیکسل */
+    background-color:#37383d; /* رنگ پس‌زمینه تیره */
+    justify-content: center; /* عناصر به مرکز افقی هدایت شوند */
+    align-items: center; /* عناصر به مرکز عمودی هدایت شوند */
+    font-size:50px ; /* اندازه فونت 50 پیکسل */
+    color: #ffffff; /* رنگ متن سفید */
+}
+
+#MyBottomDiv{
+    display: flex;
+    width:100%;
+    height:100;
+}
+#MyLeftDiv {
+    background-color:#ede8e2; /* رنگ پس‌زمینه بژ روشن */
+    height: 1000px; /* ارتفاع 1000 پیکسل */
+    flex:0 0 30%; /* عرض 30 درصد از صفحه را بگیرد */
+    font-size: 25px; /* اندازه فونت 25 پیکسل */
+    color: #000; /* رنگ متن سیاه */
+    display: inline-block; /* این عنصر به صورت بلاک نمایش داده شود ولی در کنار عناصر دیگر قرار گیرد */
+}
+
+#MyRightDiv {
+    background-color:#ffffff; /* رنگ پس‌زمینه سفید */
+    height: 1000px; /* ارتفاع 1000 پیکسل */
+    flex:0 0 70%; /* عرض 70 درصد از صفحه را بگیرد */
+    font-size: 25px; /* اندازه فونت 25 پیکسل */
+    color: #000; /* رنگ متن سیاه */
+    display:inline-block; /* این عنصر به صورت بلاک نمایش داده شود ولی در کنار عناصر دیگر قرار گیرد */
+}
+
+.MyCircleDiv {
+    background-color: white; /* پس‌زمینه سفید */
+    width: 140px; /* عرض دایره 140 پیکسل */
+    height: 140px; /* ارتفاع دایره 140 پیکسل */
+    border-radius: 100%; /* برای ایجاد شکل دایره */
+    position: absolute; /* موقعیت مطلق نسبت به کل صفحه */
+    top: 40px; /* فاصله از بالا 40 پیکسل */
+    left:100px; /* فاصله از چپ 100 پیکسل */
+    overflow: hidden; /* برای مخفی کردن بخش‌های اضافی داخل دایره */
+    display: flex; /* استفاده از flexbox برای ترازبندی داخلی */
+    justify-content: center; /* تصویر به مرکز افقی قرار گیرد */
+    align-items: center; /* تصویر به مرکز عمودی قرار گیرد */
+}
+
+.MyCircleDiv img {
+    width: 100%; /* تصویر به اندازه عرض دایره تنظیم شود */
+    height: auto; /* ارتفاع به صورت خودکار نسبت به عرض تنظیم شود */
+}
+
+hr { 
+    height: 2px; /* ارتفاع خط 2 پیکسل */
+    background-color: #000; /* رنگ خط سیاه */
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    margin-right: 20px; /* فاصله از راست 20 پیکسل */
+    margin-top: 0px; /* فاصله بالا صفر پیکسل */
+    margin-bottom: 5px; /* فاصله پایین 5 پیکسل */
+}
+
+.pr {
+    margin-bottom: 0px; /* فاصله پایین صفر */
+    margin-top: 80px; /* فاصله بالا 80 پیکسل */
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    font-size: 30px; /* اندازه فونت 30 پیکسل */
+}
+
+.pb {
+    margin-bottom: 0px; /* فاصله پایین صفر */
+    margin-top: 0px; /* فاصله بالا صفر */
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    font-size: 30px; /* اندازه فونت 30 پیکسل */
+}
+
+.pb1 {
+    margin-bottom: 20px; /* فاصله پایین 20 پیکسل */
+    margin-top: 60px; /* فاصله بالا 60 پیکسل */
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    font-size: 30px; /* اندازه فونت 30 پیکسل */
+}
+
+.ph{
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    margin-right: 20px; /* فاصله از راست 20 پیکسل */
+    margin-top: 10px; /* فاصله بالا 10 پیکسل */
+    font-size: 25px; /* اندازه فونت 25 پیکسل */
+}
+
+.plitle{
+    margin-bottom: 0px; /* فاصله پایین صفر */
+    margin-top: 0px; /* فاصله بالا صفر */
+    margin-left: 22px; /* فاصله از چپ 22 پیکسل */
+    font-size: 15px; /* اندازه فونت 15 پیکسل */
+    color: gray; /* رنگ متن خاکستری */
+}
+
+h4 {
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    margin-right: 20px; /* فاصله از راست 20 پیکسل */
+    margin-top: 15px; /* فاصله بالا 15 پیکسل */
+    margin-bottom: 0px; /* فاصله پایین صفر */
+}
+
+.ulRight {
+    margin-left: 40px; /* فاصله از چپ 40 پیکسل */
+    margin-right: 40px; /* فاصله از راست 40 پیکسل */
+    margin-top: 5px; /* فاصله بالا 5 پیکسل */
+}
+
+.ulLeft {
+    margin-left: 0px; /* فاصله از چپ صفر */
+    margin-right: 20px; /* فاصله از راست 20 پیکسل */
+    margin-top: 10px; /* فاصله بالا 10 پیکسل */
+}
+
+ul li {
+    margin-bottom: 10px; /* فاصله پایین هر مورد از لیست 10 پیکسل */
+}
+
+.cd{
+    font-size: 18px; /* اندازه فونت 18 پیکسل */
+    margin-top: 0px; /* فاصله بالا صفر */
+    margin-bottom: 0px; /* فاصله پایین صفر */
+}
+
+.fa{
+    width: 30px; /* عرض 30 پیکسل */
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    color: #34062f; /* رنگ #34062f برای متن */
+}
+
+a{
+    color: #000; /* رنگ لینک سیاه */
+}
+
+a:hover{
+    color: blue; /* رنگ لینک هنگام قرار گرفتن موس روی آن آبی شود */
+}
+
+.education-item {
+    position: relative; /* موقعیت نسبی نسبت به عنصر والد */
+    font-weight: bold; /* ضخیم کردن فونت */
+    margin-left: 30px; /* فاصله از چپ 30 پیکسل */
+    margin-top: 0px; /* فاصله بالا صفر */
+}
+
+.dot-line::before {
+    content: "•"; /* نمایش نقطه به عنوان لیست */
+    font-size: 28px; /* اندازه فونت 28 پیکسل */
+    position: absolute; /* موقعیت مطلق */
+    left: -10px; /* فاصله از چپ 10- پیکسل */
+    top: -4px; /* فاصله از بالا 4- پیکسل */
+}
+
+.dot-line::after {
+    content: ""; /* عنصر پس‌زمینه خالی برای نمایش خط */
+    position: absolute; /* موقعیت مطلق */
+    left: -6.5px; /* فاصله از چپ 6.5- پیکسل */
+    top: 20px; /* فاصله از بالا 20 پیکسل */
+    width: 2px; /* عرض خط 2 پیکسل */
+    height: 77px; /* ارتفاع خط 77 پیکسل */
+    background-color: black; /* رنگ خط سیاه */
+}
+
+.ph2{
+    margin-left: 40px; /* فاصله از چپ 40 پیکسل */
+    margin-right: 20px; /* فاصله از راست 20 پیکسل */
+    margin-top: 0px; /* فاصله بالا صفر */
+    font-size: 20px; /* اندازه فونت 20 پیکسل */
+}
+
+.ph3{
+    margin-left: 40px; /* فاصله از چپ 40 پیکسل */
+    margin-right: 20px; /* فاصله از راست 20 پیکسل */
+    margin-top: 0px; /* فاصله بالا صفر */
+    font-size: 15px; /* اندازه فونت 15 پیکسل */
+}
+
+.pb2 {
+    margin-bottom: 20px; /* فاصله پایین 20 پیکسل */
+    margin-top: 0px; /* فاصله بالا صفر */
+    margin-left: 20px; /* فاصله از چپ 20 پیکسل */
+    font-size: 30px; /* اندازه فونت 30 پیکسل */
+}
